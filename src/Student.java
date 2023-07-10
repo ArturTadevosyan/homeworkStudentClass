@@ -6,7 +6,7 @@ public class Student {
     boolean isArmenian;
     char gender;
 
-    public void bigger(Student s1, Student s2) {
+    public void biggest(Student s1, Student s2) {
         if (s1.year < s2.year) {
             showStudent(s1);
         } else {

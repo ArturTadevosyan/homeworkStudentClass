@@ -20,7 +20,7 @@ public class Main {
         student2.showAllInfoStudent(student2);
 
         System.out.println("Show biggest student");
-        student1.bigger(student1,student2);
+        student1.biggest(student1,student2);
 
         System.out.println("Show youngest student");
         student1.youngest(student1,student2);
