@@ -48,6 +48,15 @@ public class Student {
         }
     }
 
+    public void showMale(Student s1, Student s2) {
+        if (s1.gender == 'm') {
+            showStudent(s1);
+        }
+        if (s2.gender == 'm') {
+            showStudent(s2);
+        }
+    }
+
     public void showGirlsMaxMark(Student s1, Student s2) {
         if (s1.gender == 'f' && s2.gender == 'f') {
             biggestMark(s1, s2);

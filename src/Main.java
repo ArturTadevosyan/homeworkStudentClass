@@ -19,24 +19,26 @@ public class Main {
         student2.isArmenian = false;
         student2.showAllInfoStudent(student2);
 
-        System.out.println("Show biggest student");
-        student1.biggest(student1,student2);
+        System.out.println("Show bigger student");
+        student1.biggest(student1, student2);
 
-        System.out.println("Show youngest student");
-        student1.youngest(student1,student2);
+        System.out.println("Show younger student");
+        student1.youngest(student1, student2);
 
-        System.out.println("Show biggest mark student");
-        student1.biggestMark(student1,student2);
+        System.out.println("Show bigger mark student");
+        student1.biggestMark(student1, student2);
 
         System.out.println("Show Is Armenian student");
-        student1.checkedIsArmenian(student1,student2);
+        student1.checkedIsArmenian(student1, student2);
 
         System.out.println("Show Female student");
-        student1.showFemale(student1,student2);
+        student1.showFemale(student1, student2);
 
-        System.out.println("Show Female biggest student");
-        student1.showGirlsMaxMark(student1,student2);
+        System.out.println("Show Male student");
+        student1.showMale(student1, student2);
+
+        System.out.println("Show Female max mark student (two students gender is female)");
+        student1.showGirlsMaxMark(student1, student2);
 
     }
-
 }
